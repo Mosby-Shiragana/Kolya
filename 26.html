@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gradient {
+    height: 915px;
+    width: 100%;
+    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+    animation: gradient 2s infinite linear;
+    background-size: 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+} 
+        img{
+            height: 400px;
+            width: 400px;
+            height: auto;
+            float: left;
+            max-width: 400px;
+            margin: 20px;
+            border-radius: 50%;
+        }
+        .blur{filter:blur(4px)}
+        .brightness{filter: brightness(250%);}
+        .contrast{filter: contrast(180%);}
+        .grayscale{filter: grayscale(100%);}
+        .huerotate{filter: hue-rotate(180deg);}
+        .invert{filter: invert(100%);}
+        .opacity{filter: opacity(50%);}
+        .saturate{filter: saturate(7);}
+        .sepia{filter: sepia(100%);}
+        .shadow{filter: drop-shadow(8px 8px 10px rgb(255, 23, 255));}
+    </style>
+</head>
+<body>
+    <div class="gradient">
+   <h2>Image filters</h2> 
+   <p><strong>Note:</strong>The filter property is not supported in Internet Explorer or Edge 12.</p>
+   <img src="4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif" alt="kaneki" width="300" height="300">
+   <img class="blur" src="4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif" aly="kaneki" width="300" height="300">
+   <img class="brightness" src="4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif" alt="kaneki" width="300" height="300">
+   <img class="contrast" src="4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif" alt="kaneki" width="300" height="300">
+   <img class="grayscale" src="4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif" alt="kaneki" width="300" height="300">
+   <img class="huerotate" src="4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif" alt="kaneki" width="300" height="300">
+   <img class="invert" src="4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif" alt="kaneki" width="300" height="300">
+   <img class="opacity" src="4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif" alt="kaneki" width="300" height="300">
+   <img class="saturate" src="4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif" alt="kaneki" width="300" height="300">
+   <img class="sepia" src="4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif" alt="kaneki" width="300" height="300">
+   <img class="shadow" src="4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif" alt="kaneki" width="300" height="300">
+</div>
+</body>
+</html>
